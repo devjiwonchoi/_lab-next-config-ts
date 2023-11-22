@@ -1,6 +1,9 @@
+#!/usr/bin/env node
 import { readFile, writeFile } from 'fs/promises'
+import { join } from 'path'
 
-const nextNodeModulesDistPath = './node_modules/next/dist'
+const cwd = process.cwd()
+const nextNodeModulesDistPath = join(cwd, './node_modules/next/dist')
 const paths = [
   {
     name: 'config',
