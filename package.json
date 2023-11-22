@@ -1,7 +1,6 @@
 {
   "name": "next-config-ts-preview",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "hello": "tsx ./HELLO.ts",
     "dev": "next dev",
