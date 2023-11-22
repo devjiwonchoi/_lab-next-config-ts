@@ -1,6 +1,6 @@
 {
   "name": "next-config-ts-preview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": "scripts/hello.js",
   "scripts": {
     "hello": "pnpm next-config-ts-preview",
@@ -9,12 +9,10 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
+  "devDependencies": {
     "next": "canary",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
+    "react-dom": "^18.2.0",
     "@types/node": "^20.9.3",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.16",
