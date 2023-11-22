@@ -18,8 +18,8 @@ devDependencies:
     specifier: canary
     version: 14.0.4-canary.9(react-dom@18.2.0)(react@18.2.0)
   next-config-ts-preview:
-    specifier: 0.0.1
-    version: 0.0.1
+    specifier: latest
+    version: 0.0.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -195,18 +195,9 @@ packages:
     hasBin: true
     dev: true
 
-  /next-config-ts-preview@0.0.1:
-    resolution: {integrity: sha512-g7hnUrRdQoOUjvby8vKHnx4ZHjRSLgkTdfeps2I6rhY3hmD89++hVEgqE5AjLjKrNvqNPnoPuMY6ErzoDHF9Zw==}
+  /next-config-ts-preview@0.0.2:
+    resolution: {integrity: sha512-Am77OGdjCBBvMKgWnnAc6O4DG5kH/v5l8mfZpHSQn9HT/UUABlLAJTuwdVhDA6lmy20nB8UGrVgjVn3m1LGW9Q==}
     hasBin: true
-    dependencies:
-      next: 14.0.4-canary.9(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@opentelemetry/api'
-      - babel-plugin-macros
-      - sass
     dev: true
 
   /next@14.0.4-canary.9(react-dom@18.2.0)(react@18.2.0):

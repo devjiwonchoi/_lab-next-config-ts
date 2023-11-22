@@ -24,7 +24,7 @@ const paths = [
 async function main() {
   const jobs = paths.map(async ({ name, nodeModulesPath }) => {
     const content = await (0, _promises.readFile)(
-      `./scripts/${name}.js`,
+      (0, _path.join)(__dirname, `./scripts/${name}.js`),
       'utf-8'
     )
     await (0, _promises.writeFile)(nodeModulesPath, content)
