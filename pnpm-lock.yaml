@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^18.2.16
     version: 18.2.16
   next-config-ts-preview:
-    specifier: 0.0.0
-    version: 0.0.0
+    specifier: 0.0.1
+    version: 0.0.1
   typescript:
     specifier: ^5.3.2
     version: 5.3.2
@@ -178,8 +178,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /next-config-ts-preview@0.0.0:
-    resolution: {integrity: sha512-WDuMilg1EpRVBL4B4vRzMMw7iIAGQzFbnM5cjtC0LFyJIwxSkdutgGxIMrdmJgcx7rC+M2AG4EYJholj9BGLgA==}
+  /next-config-ts-preview@0.0.1:
+    resolution: {integrity: sha512-g7hnUrRdQoOUjvby8vKHnx4ZHjRSLgkTdfeps2I6rhY3hmD89++hVEgqE5AjLjKrNvqNPnoPuMY6ErzoDHF9Zw==}
     hasBin: true
     dependencies:
       next: 14.0.4-canary.9(react-dom@18.2.0)(react@18.2.0)
