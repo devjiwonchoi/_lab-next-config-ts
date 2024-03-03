@@ -323,12 +323,11 @@ const REACT_LOADABLE_MANIFEST = "react-loadable-manifest.json";
 const FONT_MANIFEST = "font-manifest.json";
 const SERVER_DIRECTORY = "server";
 const CONFIG_FILES = [
-    "next.config.js",
-    "next.config.mjs",
-    "next.config.ts",
-    "next.config.cts",
-    "next.config.mts"
-];
+  'next.config.js',
+  'next.config.mjs',
+  'next.config.ts',
+  'next.config.mts',
+]
 const BUILD_ID_FILE = "BUILD_ID";
 const BLOCKED_PAGES = [
     "/_document",

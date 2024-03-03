@@ -1,6 +1,6 @@
 {
   "name": "next-config-ts-preview",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "bin": "scripts/hello.js",
   "scripts": {
     "hello": "pnpm next-config-ts-preview",
