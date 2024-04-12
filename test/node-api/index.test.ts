@@ -1,12 +1,12 @@
-import { nextTestSetup } from 'e2e-utils'
+import { transpileConfig } from '../../src/transpile-config'
 
 describe('next-config-ts-node-api', () => {
-  const { next } = nextTestSetup({
-    files: __dirname,
-  })
-
   it('should be able to use Node.js API', async () => {
-    const $ = await next.render$('/')
-    expect($('p').text()).toBe('foo')
+    const config = await transpileConfig({
+      cwd: __dirname,
+      nextConfigPath: `${__dirname}/next.config.ts`,
+    })
+
+    expect(config.env.foo).toBe('foo')
   })
 })
